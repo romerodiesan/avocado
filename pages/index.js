@@ -1,5 +1,12 @@
+import NavbarComponent from "../components/ Navbar";
+
 function HomePage() {
-  return <h1>Hello, 🥑</h1>;
+  return (
+    <>
+      <NavbarComponent />
+      <h1>Welcome, 🥑</h1>
+    </>
+  );
 }
 
 export default HomePage;
