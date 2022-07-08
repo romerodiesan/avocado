@@ -1,0 +1,14 @@
+{
+  "name": "avocado",
+  "version": "0.0.1",
+  "description": "A project to learn nextjs.",
+  "repository": "git@github.com:romerodiesan/avocado.git",
+  "author": "Diesan Romero",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "12.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
