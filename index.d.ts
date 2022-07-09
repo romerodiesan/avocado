@@ -27,7 +27,9 @@ type TProduct = {
   sku: string
   price: number
   image: string
-  attributes: TProductAttributes
+  shape: string
+  hardiness: string
+  taste: string
 } | null
 
 type TAPIAVODetailResponse = TProduct
