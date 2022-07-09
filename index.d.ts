@@ -10,7 +10,11 @@ type Json =
 type TProductId = string
 
 type TProductAttributes = {
+  id: string
+  name: string
+  price: number
   description: string
+  image: string | undefined
   shape: string
   hardiness: string
   taste: string
@@ -18,12 +22,13 @@ type TProductAttributes = {
 
 type TProduct = {
   id: TProductId
+  description: string
   name: string
   sku: string
   price: number
-  image: Url
+  image: string
   attributes: TProductAttributes
-}
+} | null
 
 type TAPIAVODetailResponse = TProduct
 

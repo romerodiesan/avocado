@@ -1,8 +1,8 @@
-import { IncomingMessage, ServerResponse } from "http";
+// NextJS
+import { NextApiRequest, NextApiResponse } from "next";
 
 // Database: avos
-import DB from '@database'
-import { NextApiRequest, NextApiResponse } from "next";
+import DB from '@database';
 
 async function allAvos (_request: NextApiRequest, response: NextApiResponse) {
   const db = new DB();
